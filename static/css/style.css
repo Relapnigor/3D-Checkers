@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    position: absolute;
+}
+
+.status {
+    position: absolute;
+    background-color: green;
+    color: greenyellow;
+    border-bottom: 1px solid greenyellow;
+    width: 100vw;
+    height: 100px;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.log {
+    position: absolute;
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    color: greenyellow;
+    width: 500px;
+    height: 350px;
+    top: calc(50vh - 250px);
+    left: calc(50vw - 250px);
+    z-index: 2;
+}
+
+.log_text {
+    color: greenyellow;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: 25px;
+}
+
+.dark {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+    padding-top: 200px;
+}
+
+.name {
+    border: 3px solid yellowgreen;
+    border-radius: 20px;
+    background: none;
+    width: 200px;
+    height: 50px;
+    color: yellowgreen;
+    font-size: 40px;
+    text-align: center;
+}
+
+.name_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.l_button {
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.wait {
+    color: greenyellow;
+    font-size: 50px;
+    text-align: center;
+    opacity: 10;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.waiting_text {
+    color: greenyellow;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.counter {
+    color: greenyellow;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
